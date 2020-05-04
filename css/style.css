@@ -1,0 +1,213 @@
+html, body {
+    background-color: bisque;
+    font: 15px/1.5 'Oswald', sans-serif, Arial, Helvetica;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+/* Globals */
+
+.container {
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 20px;
+    width: 65%;
+}
+
+#page-container /* "Container" for the whole page */ {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap /* "wrapper"/"container" for all of the content */ {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+p {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: /*#A17188*/ #ffffff;
+}
+
+#w3 /* Not really a global but works this way :upside_down_smile: */ {
+    text-decoration: none;
+    color: orangered;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+table, td, tr {
+    border: 1px solid #35424a;
+}
+
+table {
+    background-color: #F1B165;
+}
+
+td {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 10px;
+    min-height: 70px;
+    text-align: center;
+    border-bottom: /*orangered*/ #A17188 3px solid;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px; /* Clockwise (top, right, bottom, left) */
+}
+
+header nav {
+    text-align: center;
+    /* margin-top: ; */
+    margin: 10px;
+}
+
+/* Footer */
+
+footer {
+    background: #35424a;
+    min-height: 35px;
+    padding-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    border-top: /*orangered*/ #A17188 3px solid;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Section */
+
+section {
+    background: url("../img/showcase.jpeg") no-repeat -725px -730px;
+    min-height: 175px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+section p {
+    font-size: larger;
+    padding: 5;
+}
+
+/* Article */
+
+article p, .valuableSkills {
+    color: #ffffff;
+    background-color: #35424a;
+    padding: 15px;
+    margin-top: -20px;
+    /* box-shadow: -50px 25px 12px -15px black, 
+                -75px 35px 12px -15px #A17188; */
+}
+
+article h2 {
+    color: /*#12642d*/ black;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: /*#8b0000 #9199f2 #5803a3 #35424a #0B92E3*/ #A17188;
+    padding: 10px;
+}
+
+article b {
+    color: #E5B618;
+}
+
+.valuableSkills {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Edit */
+
+.edit {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Figure */
+
+figure {
+    background-color: blanchedalmond;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure h1 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    padding: 20px;
+    border-radius: 25%;
+    height: 20%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    padding: 0 0 20px 0;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+/* Figure table */
+
+#fig-table {
+    margin-top: 50px;
+    padding: 15px;
+}
+
+#fig-table h1 {
+    margin: 10px;
+    padding: 0;
+}
+
+#fig-table table {
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: ; */
+}
+
+#fig-table #tspan {
+    text-align: center;
+}
+
+thead, tfoot {
+    background-color: #35424a;
+    color: #ffffff;
+}
+
+caption {
+    color: #A17188;
+    margin: -3px;
+    padding: 0;
+}
